@@ -1,3 +1,4 @@
+import { Button } from 'flowbite-react';
 import React from 'react';
 
 const HomePage = () => {
@@ -13,7 +14,7 @@ const HomePage = () => {
                 </h3>
             </div>
             <div className="w-70 p-10"> {/* Set the width to 30% */}
-                <img
+                <img class="h-auto max-w-lg ml-auto"
                     src="https://res.cloudinary.com/delscyuhi/image/upload/v1697993599/BHC/usmsrzlwsigrh5lyy90y.png"
                     alt="Chicken-Sandwich"
                     style={{ maxWidth: '50%' }} // Ensure the image resizes to fit the container
@@ -103,8 +104,6 @@ const HomePage = () => {
         </div>
 
         </div>
-
-
     </div>
 </div>
 );
