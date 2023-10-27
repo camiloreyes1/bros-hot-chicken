@@ -1,20 +1,29 @@
 import { Carousel } from "flowbite-react";
 
 const HomePage = () => {
+
+    const textStyle = {
+        fontFamily: "Bungee Shade, cursive",
+        color:"black"
+      };
+
+      const biggerParagraphStyle = {
+        fontSize: "125%", // Increase the font size by 25%
+      };
     return (
 
            <div>
-      <div className="home-page">
+            <div className="home-page" style={textStyle} >
         <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Welcome to Bro's Hot Chicken!
         </h1>
-        <p className="text-center">
+        <p className="text-center" style={biggerParagraphStyle}>
           Where we bring the fiery spirit of Nashville's famous hot chicken sandwich right to your plate!
         </p>
       </div>
      
             <div className="mb-4">
-            <Carousel>
+            {/* <Carousel>
                 <img
                     src="https://res.cloudinary.com/delscyuhi/image/upload/v1697993599/BHC/usmsrzlwsigrh5lyy90y.png"
                 />
@@ -30,11 +39,14 @@ const HomePage = () => {
                 <img
                     src="https://res.cloudinary.com/delscyuhi/image/upload/v1697993599/BHC/usmsrzlwsigrh5lyy90y.png"
                 />
-            </Carousel>
+            </Carousel> */}
 
             </div>
-
-            <div>
+            <div className="hours-section">
+            <br>
+            </br>
+            <br>
+            </br>
                 <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white">
                     Hours
                 </h1>
