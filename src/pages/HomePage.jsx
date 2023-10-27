@@ -2,18 +2,18 @@ import { Carousel } from "flowbite-react";
 
 const HomePage = () => {
     return (
-        <div>
-            <div> {/* Adjust the width and right padding as needed */}
-                <br></br>
-                <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
-                >Welcome to Bro's Hot Chicken!</h1>
-                <br></br>
-                <p className='text-center'>
-                    Where we bring the fiery spirit of Nashville's famous hot chicken sandwich right to your plate!
-                </p>
-            </div>
-            
-            <div className="mb-4">
+
+           <div className="home-page">
+      <div className="background-image">
+        <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          Welcome to Bro's Hot Chicken!
+        </h1>
+        <p className="text-center">
+          Where we bring the fiery spirit of Nashville's famous hot chicken sandwich right to your plate!
+        </p>
+      </div>
+     
+            {/* <div className="mb-4">
             <Carousel>
                 <img
                     src="https://res.cloudinary.com/delscyuhi/image/upload/v1697993599/BHC/usmsrzlwsigrh5lyy90y.png"
@@ -32,7 +32,7 @@ const HomePage = () => {
                 />
             </Carousel>
 
-            </div>
+            </div> */}
 
             <div>
                 <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white">

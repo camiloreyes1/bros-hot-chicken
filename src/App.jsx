@@ -10,6 +10,7 @@ function App() {
     <div>
       <Navbar/>
       <HomePage/>
+      <Menu/>
       <Footer/>
 
     </div>
