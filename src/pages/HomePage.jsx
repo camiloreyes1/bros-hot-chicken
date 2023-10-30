@@ -3,8 +3,8 @@ import { Carousel } from "flowbite-react";
 const HomePage = () => {
 
     const textStyle = {
-        fontFamily: "Bungee Shade, cursive",
-        color:"black"
+        fontFamily: "Permanent Marker, cursive",
+
       };
 
       const biggerParagraphStyle = {
