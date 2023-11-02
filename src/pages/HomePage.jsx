@@ -1,29 +1,47 @@
-import { Carousel } from "flowbite-react";
+import { Carousel } from "react-bootstrap";
 
 const HomePage = () => {
 
     const textStyle = {
         fontFamily: "Permanent Marker, cursive",
 
-      };
+    };
 
-      const biggerParagraphStyle = {
+    const biggerParagraphStyle = {
         fontSize: "125%", // Increase the font size by 25%
-      };
+    };
     return (
 
-           <div>
+        <div>
             <div className="home-page" style={textStyle} >
-        <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-          Welcome to Bro's Hot Chicken!
-        </h1>
-        <p className="text-center" style={biggerParagraphStyle}>
-          Where we bring the fiery spirit of Nashville's famous hot chicken sandwich right to your plate!
-        </p>
-      </div>
-     
-            <div className="mb-4">
-            {/* <Carousel>
+                <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    Welcome to Bro's Hot Chicken!
+                </h1>
+                <p className="text-center" style={biggerParagraphStyle}>
+                    Where we bring the fiery spirit of Nashville's famous hot chicken sandwich right to your plate!
+                </p>
+            </div>
+            <div className="mt-4 mb-4">
+
+                <Carousel slide={false}>
+                    <Carousel.Item>
+                        <img className="d-block w-100"
+                            src="https://res.cloudinary.com/delscyuhi/image/upload/v1698893966/wopfnuhhypektpvs6zic.jpg" />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <img className="d-block w-100"
+                            src="https://res.cloudinary.com/delscyuhi/image/upload/v1698893966/khw6glx7xfegkimth7bi.jpg" />
+                    </Carousel.Item>
+
+                   {/* <Carousel.Item>
+                        <img className="d-block w-100"
+                            src="https://res.cloudinary.com/delscyuhi/image/upload/v1698893966/b2yffqolxpzj7uennjac.jpg" />
+                    </Carousel.Item> */}
+                </Carousel>
+
+
+                {/* <Carousel>
                 <img
                     src="https://res.cloudinary.com/delscyuhi/image/upload/v1697993599/BHC/usmsrzlwsigrh5lyy90y.png"
                 />
@@ -43,10 +61,10 @@ const HomePage = () => {
 
             </div>
             <div className="hours-section">
-            <br>
-            </br>
-            <br>
-            </br>
+                <br>
+                </br>
+                <br>
+                </br>
                 <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white">
                     Hours
                 </h1>
