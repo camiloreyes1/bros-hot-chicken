@@ -14,10 +14,10 @@ const HomePage = () => {
 
         <div>
             <div className="home-page" style={textStyle} >
-                <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-white">
+                <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                     Welcome to Bro's Hot Chicken!
                 </h1>
-                <p className="text-center text-white" style={biggerParagraphStyle}>
+                <p className="text-center dark:text-white" style={biggerParagraphStyle}>
                     Can You Handle the Heat?
                 </p>
             </div>

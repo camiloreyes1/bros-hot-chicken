@@ -12,7 +12,6 @@ function App() {
       <HomePage/>
       <Menu/>
       <Footer/>
-
     </div>
   )
 }
