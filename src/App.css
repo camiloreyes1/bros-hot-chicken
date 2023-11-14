@@ -1,6 +1,6 @@
 .home-page {
   position: relative;
-  /* background-image: url("https://res.cloudinary.com/delscyuhi/image/upload/v1698894999/oij6uwqd9jvql6fufyqu.jpg"); */
+  background-image: url("https://res.cloudinary.com/dtl6wlymb/image/upload/v1699939748/lf2na01xlcaktvv7xblr.png");
   background-size: cover;
   background-position: center;
   min-height: 70vh;
@@ -31,5 +31,13 @@
 
 .active-link:hover {
   color: red; /* Change the color to red on hover */
+}
+
+@font-face {
+  font-family: 'YourCustomFont';
+  src: url("./fonts/Insanibc.ttf") format('ttf');
+  /* Add other font formats if necessary */
+  font-weight: normal;
+  font-style: normal;
 }
 

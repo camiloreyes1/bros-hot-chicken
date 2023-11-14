@@ -1,5 +1,6 @@
 import { Carousel } from "react-bootstrap";
 
+
 const HomePage = () => {
 
     const textStyle = {
@@ -12,12 +13,12 @@ const HomePage = () => {
     };
     return (
 
-        <div>
+        <div style={{ fontFamily: 'YourCustomFont, sans-serif' }}>
             <div className="home-page" style={textStyle} >
-                <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                <h1 className="text-center mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-white">
                     Welcome to Bro's Hot Chicken!
                 </h1>
-                <p className="text-center dark:text-white" style={biggerParagraphStyle}>
+                <p className="text-center text-white" style={biggerParagraphStyle}>
                     Can You Handle the Heat?
                 </p>
             </div>
@@ -113,7 +114,7 @@ const HomePage = () => {
             <br></br>
             <div className="mb-4">
 
-                <Carousel className="h-50">
+                {/* <Carousel className="h-50">
                     <Carousel.Item>
                         <img className="d-block w-100"
                             src="https://res.cloudinary.com/delscyuhi/image/upload/v1698893966/wopfnuhhypektpvs6zic.jpg" />
@@ -128,7 +129,7 @@ const HomePage = () => {
                         <img className="d-block w-100"
                             src="https://res.cloudinary.com/delscyuhi/image/upload/v1698893966/b2yffqolxpzj7uennjac.jpg" />
                     </Carousel.Item>
-                </Carousel>
+                </Carousel> */}
 
             </div>
         </div>
