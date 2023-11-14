@@ -5,7 +5,6 @@ const HomePage = () => {
 
     const textStyle = {
         fontFamily: "Permanent Marker, cursive",
-
     };
 
     const biggerParagraphStyle = {
